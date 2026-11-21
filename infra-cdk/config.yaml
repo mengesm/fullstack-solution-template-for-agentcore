@@ -1,8 +1,8 @@
-stack_name_base: FAST-stack
+stack_name_base: menges-FAST-stack
 
 # Optional: Set to automatically create an admin user and email credentials
 # If not provided, you'll need to manually create users via AWS Console
-admin_user_email: # Example: admin@example.com
+admin_user_email: mengesm@gmail.com # Example: admin@example.com
 
 backend:
   agent_name: FASTAgent # Name for the agent runtime (a-z, A-Z, 0-9, _)
@@ -36,10 +36,10 @@ backend:
   # VPC configuration - required when network_mode is VPC
   # Your VPC must have the necessary VPC endpoints for AWS services.
   # See docs/DEPLOYMENT.md for the full list of required VPC endpoints.
-  # vpc:
-  #   vpc_id: vpc-0abc1234def56789a
+  # vpc: 
+  #  vpc_id: vpc-00c470eb01a6c56a8
   #   subnet_ids:
-  #     - subnet-aaaa1111bbbb2222c
-  #     - subnet-cccc3333dddd4444e
+  #     - subnet-0337ba80cf7da3bd1
+  #     - subnet-01a9bffd495f2d392
   #   security_group_ids:  # Optional - a default SG is created if omitted
   #     - sg-0abc1234def56789a
